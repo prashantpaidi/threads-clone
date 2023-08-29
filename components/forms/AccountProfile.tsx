@@ -159,7 +159,7 @@ export default function AccountProfile({
               <FormControl>
                 <Input
                   type='text'
-                  className='account-form_input no-focus'
+                  className='account-form_input focus-visible:ring-0 focus-visible:ring-transparent focus-visible:ring-offset-0'
                   {...field}
                 />
               </FormControl>
@@ -179,7 +179,7 @@ export default function AccountProfile({
               <FormControl>
                 <Input
                   type='text'
-                  className='account-form_input no-focus'
+                  className='account-form_input focus-visible:ring-0 focus-visible:ring-transparent focus-visible:ring-offset-0'
                   {...field}
                 />
               </FormControl>
@@ -199,7 +199,7 @@ export default function AccountProfile({
               <FormControl>
                 <Textarea
                   rows={10}
-                  className='account-form_input no-focus'
+                  className='account-form_input focus-visible:ring-0 focus-visible:ring-transparent focus-visible:ring-offset-0'
                   {...field}
                 />
               </FormControl>
