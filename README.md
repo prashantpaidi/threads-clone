@@ -22,7 +22,15 @@ A next-generation forum platform inspired threads. Built on Next.js  and MongoDB
 Update the configuration in the `.env` file with your MongoDB connection string, Clerk API keys, and other relevant details.
 
 ```
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key CLERK_SECRET_KEY=your_clerk_secret_key NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/onboarding NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/ MONGODB_URL=your_mongodb_connection_string UPLOADTHING_SECRET=your_uploadthing_secret UPLOADTHING_APP_ID=your_uploadthing_app_id
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key 
+CLERK_SECRET_KEY=your_clerk_secret_key 
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in 
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up 
+NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/onboarding 
+NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/ 
+MONGODB_URL=your_mongodb_connection_string 
+UPLOADTHING_SECRET=your_uploadthing_secret 
+UPLOADTHING_APP_ID=your_uploadthing_app_id
 ```
 
 ### Running the Application
