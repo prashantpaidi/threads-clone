@@ -11,7 +11,7 @@ A next-generation forum platform inspired threads. Built on Next.js  and MongoDB
 
 - Node.js (version 13.4.16)
 - MongoDB
-- [Clerk API Keys]([Add authentication and user management to your Next.js app with Clerk in 7 minutes | Clerk](https://clerk.com/docs/quickstarts/nextjs)) (for authentication)
+- [Clerk API Keys](https://clerk.com/docs/quickstarts/nextjs) (for authentication)
 ### Installation
 
 1. Clone the repository: `git clone https://github.com/your-username/threads-clone.git`
